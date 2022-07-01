@@ -1,0 +1,93 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "prueba divisas",
+    "dateExported": "2022-07-01T14:45:28.721Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "804e5284-4f7a-4926-af6a-1bdaeaed5624",
+            "colId": "5cfe9158-8e01-47f1-ae62-24d46746b23f",
+            "containerId": "",
+            "name": "guardas datos",
+            "url": "http://localhost:3000/save",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2022-06-30T20:15:12.621Z",
+            "modified": "2022-06-30T20:18:39.591Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9c40cda2-c271-4741-a704-742b090ac044",
+            "colId": "5cfe9158-8e01-47f1-ae62-24d46746b23f",
+            "containerId": "",
+            "name": "guardar historico",
+            "url": "http://localhost:3000/history/v1/save",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2022-06-30T21:42:37.898Z",
+            "modified": "2022-07-01T11:29:03.294Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "43502d3c-4dc0-47f2-b70b-a73334355d37",
+            "colId": "5cfe9158-8e01-47f1-ae62-24d46746b23f",
+            "containerId": "",
+            "name": "consulta de historico de tasa de cambio",
+            "url": "http://localhost:3000/history/v1/historys",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2022-07-01T11:48:31.522Z",
+            "modified": "2022-07-01T11:49:50.518Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "83b26528-71a2-4010-a9ee-a42b10f672ef",
+            "colId": "5cfe9158-8e01-47f1-ae62-24d46746b23f",
+            "containerId": "",
+            "name": "consulta de historico por id",
+            "url": "http://localhost:3000/history/v1/history/62beda7f05a3ba8ee71c9cdf",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2022-07-01T11:58:32.145Z",
+            "modified": "2022-07-01T11:59:06.664Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5df4e42d-cddb-48db-ac1d-ded2a59d39b0",
+            "colId": "5cfe9158-8e01-47f1-ae62-24d46746b23f",
+            "containerId": "",
+            "name": "consultar todo de divisas",
+            "url": "http://localhost:3000/divisas/v1/divisas",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2022-07-01T12:10:51.551Z",
+            "modified": "2022-07-01T12:11:40.178Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "83f2d13e-845f-4f6b-808b-3d3000637ab3",
+            "colId": "5cfe9158-8e01-47f1-ae62-24d46746b23f",
+            "containerId": "",
+            "name": "consulta de divisas por id",
+            "url": "http://localhost:3000/divisas/v1/divisa/62be17b2cc2a6fd04a72d932",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2022-07-01T12:12:19.213Z",
+            "modified": "2022-07-01T12:13:33.346Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

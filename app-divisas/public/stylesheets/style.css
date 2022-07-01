@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header{
+  margin-bottom: 50px;
+}
+
+.img{
+  width: 100%;
+  height: 200px;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 30px;
+}
+
+p{
+  margin: 20px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button{
+  margin: 20px;
+}
+
+.tabla1{
+  margin: 20px;
+  width: 80%;
+
+}
+
+.tabla2{
+  margin: 20px;
+  width: 80%;
+  
+}
