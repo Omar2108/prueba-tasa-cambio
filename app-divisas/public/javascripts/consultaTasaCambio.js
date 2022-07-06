@@ -1,3 +1,5 @@
+const { default: fetch } = require("node-fetch");
+
 const tabla1 = document.getElementById("tabla1");
 const btnCambio = document.getElementById("btnObtenerCambio");
 
@@ -39,6 +41,8 @@ const consultarCambio = () => {
 
 
                 }
+
+                fetch
 
             }
 
